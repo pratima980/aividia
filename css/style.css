@@ -1,7 +1,13 @@
-
 html,
 body{
     overflow-x: hidden;
+}
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1360px;
+    }
+.justify-content-lg-center{
+    width:95%;
+    margin: 0 auto;
 }
 .aividia-nav{
     padding:10px 40px;
@@ -127,7 +133,7 @@ body{
     padding:100px 0 0;
 }
 .footer-section .container{
-    max-width: 1255px;
+    max-width: 1375px;
 }
 
 .footer-title{
@@ -1027,10 +1033,22 @@ font-size:16px;
        
     }
 }
+@media (min-width:992px) and (max-width:1085px){
 
+    .nav-center {
+    gap: 25px !important;
+}
+.nav-link {
+    
+    font-size: 15px !important;}
+}
 
 @media(max-width:991px){
-
+   .nav-right {
+         margin-top: 0px !important;}
+.d-flex {
+     display: unset !important; 
+}
     .navbar-collapse{
         position:static;
         transform:none;
