@@ -514,7 +514,19 @@ footer hr {
 /* =========================
         TECH STACK
 ========================= */
+/* Hide Horizontal Scrollbar */
 
+.tech-stack .row{
+    overflow-x:auto;
+    flex-wrap:nowrap;
+
+    scrollbar-width:none;      /* Firefox */
+    -ms-overflow-style:none;   /* IE */
+}
+
+.tech-stack .row::-webkit-scrollbar{
+    display:none;              /* Chrome/Safari */
+}
 .tech-stack{
     background:#94DA32;
     padding:70px 0;
@@ -853,7 +865,10 @@ color: #111;
 /* MOBILE */
 
 @media(max-width:767px){
-
+.service-card {
+   
+     height:  100%;
+}
     .testimonial-card{
 
         padding:50px 25px;

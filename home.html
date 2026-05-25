@@ -19,77 +19,52 @@
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
 </head>
 <body>
+<!-- =========================
+        NORMAL NAVBAR
+========================= -->
+
 <nav class="navbar navbar-expand-lg aividia-nav">
+
     <div class="container-fluid nav-container">
 
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
-            <img src="template-images/Aividia-Logo.png" alt="aividia-logo">
+
+        <a class="navbar-brand order-1" href="#">
+            <img src="template-images/Aividia-Logo.png" alt="">
         </a>
 
-        <!-- Mobile Toggle -->
-        <button class="navbar-toggler order-3 order-lg-3 order-md-3" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent">
-
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Center Menu -->
-        <div class="collapse navbar-collapse justify-content-center order-4 order-lg-4 order-md-4"
-            id="navbarSupportedContent">
-
-            <ul class="navbar-nav nav-center ">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About AIVIDIA</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Client Success</a>
-                </li>
-            </ul>
-        </div>
-
         <!-- Right Side -->
-        <div class="nav-right d-flex align-items-center">
-            <a href="#" class="login-link order-1 order-lg-1 order-md-1">LOGIN</a>
+
+        <div class="nav-right d-flex align-items-center order-2 order-lg-3 order-md-3">
+
+            <a href="#" class="login-link order-1 order-lg-1 order-md-1">
+                LOGIN
+            </a>
 
             <button class="btn contact-btn order-2 order-lg-2 order-md-2">
                 CONTACT AIVIDIA
             </button>
+
         </div>
 
-    </div>
-</nav>
-<nav class="navbar navbar-expand-lg aividia-nav sticky-nav">
-    <div class="container-fluid nav-container">
+        <!-- Toggle -->
 
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-            <img src="template-images/Aividia-Logo-sticky.png" alt="aividia-logo">
-        </a>
-
-        <!-- Mobile Toggle -->
-        <button class="navbar-toggler order-3" type="button"
+        <button class="navbar-toggler order-3 order-lg-3 order-md-3"
+            type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent">
+            data-bs-target="#mainNavbar">
 
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
         <!-- Center Menu -->
-        <div class="collapse navbar-collapse justify-content-center order-4"
-            id="navbarSupportedContent">
 
-            <ul class="navbar-nav nav-center ">
+        <div class="collapse navbar-collapse justify-content-center order-4 order-lg-4 order-md-4"
+            id="mainNavbar">
+
+            <ul class="navbar-nav nav-center">
+
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
@@ -105,19 +80,85 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Client Success</a>
                 </li>
+
             </ul>
-        </div>
 
-        <!-- Right Side -->
-        <div class="nav-right d-flex align-items-center">
-            <a href="#" class="login-link order-1">LOGIN</a>
-
-            <button class="btn contact-btn order-2">
-                CONTACT AIVIDIA
-            </button>
         </div>
 
     </div>
+
+</nav>
+
+
+
+<!-- =========================
+        STICKY NAVBAR
+========================= -->
+
+<nav class="navbar navbar-expand-lg aividia-nav sticky-nav">
+
+    <div class="container-fluid nav-container">
+
+        <!-- Logo -->
+
+        <a class="navbar-brand order-1" href="#">
+            <img src="template-images/Aividia-Logo-sticky.png" alt="">
+        </a>
+
+        <!-- Right Side -->
+
+        <div class="nav-right d-flex align-items-center order-2 order-lg-3 order-md-3">
+
+            <a href="#" class="login-link order-1 order-lg-1 order-md-1">
+                LOGIN
+            </a>
+
+            <button class="btn contact-btn order-2 order-lg-2 order-md-2">
+                CONTACT AIVIDIA
+            </button>
+
+        </div>
+
+        <!-- Toggle -->
+
+        <button class="navbar-toggler order-3 order-lg-3 order-md-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#stickyNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- Center Menu -->
+
+        <div class="collapse navbar-collapse justify-content-center order-4 order-lg-4 order-md-4"
+            id="stickyNavbar">
+
+            <ul class="navbar-nav nav-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About AIVIDIA</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Client Success</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
 </nav>
 
 <!-- =========================
